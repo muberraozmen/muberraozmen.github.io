@@ -1,24 +1,332 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Muberra Ozmen</title>
-    <meta name="description" content="Machine Learning Researcher" />
-    <meta name="author" content="Muberra Ozmen" />
-    <link rel="icon" href="data:," />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muberra Ozmen</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
 
-    <meta property="og:title" content="Muberra Ozmen" />
-    <meta property="og:description" content="Machine Learning Researcher" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="./public/placeholder.svg" />
+<!-- ── Header ── -->
+<header>
+  <div class="container">
+    <h1>Muberra Ozmen</h1>
+    <p class="subtitle">Applied Scientist &nbsp;·&nbsp; AI Safety Researcher</p>
+    <div class="contact">
+      <a href="mailto:muberra.ozmen@gmail.com">Email</a>
+      <a href="https://muberraozmen.github.io/portfolio/" target="_blank">Portfolio</a>
+      <a href="https://www.linkedin.com/in/muberraozmen/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/muberraozmen" target="_blank">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=y7MTyicAAAAJ" target="_blank">Scholar</a>
+    </div>
+  </div>
+</header>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="./public/placeholder.svg" />
-  </head>
+<!-- ── Nav ── -->
+<nav>
+  <div class="container">
+    <a href="#about">About</a>
+    <a href="#publications">Publications</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+  </div>
+</nav>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="src/main.tsx"></script>
-  </body>
+<!-- ── Main ── -->
+<main>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <p class="section-title">About</p>
+      <p>
+        ML scientist with research and industry experience in graph learning and applied AI.
+        I am pivoting to AI safety research, with recent work on LLM jailbreak detection,
+        agent alignment evaluation, and graph-based risk detection.
+        Currently an Applied Scientist at <a href="https://www.coveo.com" target="_blank">Coveo</a>,
+        where I work on multi-turn search agents and LLM evaluation pipelines.
+      </p>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications">
+    <div class="container">
+      <p class="section-title">Publications</p>
+      <ol class="pub-list" reversed>
+
+        <li class="pub">
+          <span class="pub-num">8</span>
+          <div class="pub-body">
+            <p class="pub-title">PsychoPass: Geometric Profiling of Multi-Turn Adversarial LLM Conversations</p>
+            <p class="pub-meta"><strong>M. Ozmen</strong>, S. Majumdar &mdash; arXiv preprint, 2026</p>
+            <div class="pub-links">
+              <a href="https://github.com/muberraozmen/psycho-pass" target="_blank" class="code">code</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="pub">
+          <span class="pub-num">7</span>
+          <div class="pub-body">
+            <p class="pub-title">Understanding the Design Principles of Link Prediction in Directed Settings</p>
+            <p class="pub-meta">J. Zhai, <strong>M. Ozmen</strong>, T. Markovich &mdash; ACM WebConf Workshop (NEGEL), 2025</p>
+            <div class="pub-links">
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3701716.3717803" target="_blank" class="paper">paper</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="pub">
+          <span class="pub-num">6</span>
+          <div class="pub-body">
+            <p class="pub-title">Recent Link Classification on Temporal Graphs Using Graph Profiler</p>
+            <p class="pub-meta"><strong>M. Ozmen</strong>, T. Markovich &mdash; Transactions on Machine Learning Research (TMLR), 2024</p>
+            <div class="pub-links">
+              <a href="https://openreview.net/pdf?id=BTgHh0gSSc" target="_blank" class="paper">paper</a>
+              <a href="https://ai.cash.app/recent-link-classification" target="_blank" class="blog">blog</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="pub">
+          <span class="pub-num">5</span>
+          <div class="pub-body">
+            <p class="pub-title">Benchmarking Edge Regression on Temporal Networks</p>
+            <p class="pub-meta"><strong>M. Ozmen</strong>, F. Regol, T. Markovich &mdash; Journal of Data-centric Machine Learning Research (DMLR), 2024</p>
+            <div class="pub-links">
+              <a href="https://openreview.net/pdf?id=4k4cocpuSw" target="_blank" class="paper">paper</a>
+              <a href="https://ai.cash.app/temporal-edge-regression" target="_blank" class="blog">blog</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="pub">
+          <span class="pub-num">4</span>
+          <div class="pub-body">
+            <p class="pub-title">Substituting Data Annotation with Balanced Neighbourhoods and Collective Loss in Multi-label Text Classification</p>
+            <p class="pub-meta"><strong>M. Ozmen</strong>, J. Cotnareanu, M. Coates &mdash; Conference on Lifelong Learning Agents (CoLLAs), 2023</p>
+            <div class="pub-links">
+              <a href="https://proceedings.mlr.press/v232/ozmen23a/ozmen23a.pdf" target="_blank" class="paper">paper</a>
+              <a href="https://github.com/muberraozmen/BNCL" target="_blank" class="code">code</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="pub">
+          <span class="pub-num">3</span>
+          <div class="pub-body">
+            <p class="pub-title">Multi-relation Message Passing for Multi-label Text Classification</p>
+            <p class="pub-meta"><strong>M. Ozmen</strong>, H. Zhang, P. Wang, M. Coates &mdash; IEEE ICASSP, 2022</p>
+            <div class="pub-links">
+              <a href="https://ieeexplore.ieee.org/document/9747225" target="_blank" class="paper">paper</a>
+              <a href="https://github.com/muberraozmen/MrMP" target="_blank" class="code">code</a>
+              <a href="https://networks.lab.mcgill.ca/docs/projects/current_projects/project003/" target="_blank" class="blog">blog</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="pub">
+          <span class="pub-num">2</span>
+          <div class="pub-body">
+            <p class="pub-title">Microwave Radar for Breast Health Monitoring: System Performance Protocol</p>
+            <p class="pub-meta">L. Kranold, <strong>M. Ozmen</strong>, M. Coates, M. Popović &mdash; IEEE IMBioC, 2020</p>
+            <div class="pub-links">
+              <a href="https://ieeexplore.ieee.org/document/9385019" target="_blank" class="paper">paper</a>
+              <a href="https://networks.lab.mcgill.ca/docs/projects/past_projects/project008" target="_blank" class="blog">blog</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="pub">
+          <span class="pub-num">1</span>
+          <div class="pub-body">
+            <p class="pub-title">Interactive Evolutionary Approaches to Multi-objective Feature Selection</p>
+            <p class="pub-meta"><strong>M. Ozmen</strong>, G. Karakaya, M. Koksalan &mdash; International Transactions in Operational Research (ITOR), 2017</p>
+            <div class="pub-links">
+              <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/itor.12428" target="_blank" class="paper">paper</a>
+            </div>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="container">
+      <p class="section-title">Experience</p>
+      <div class="entry-list">
+
+        <div class="entry">
+          <span class="entry-org"><a href="https://www.coveo.com" target="_blank">Coveo</a></span>
+          <span class="entry-date">Feb 2026 &ndash; Present</span>
+          <span class="entry-role">Applied Scientist</span>
+          <span class="entry-location">Montreal, QC, Canada</span>
+          <ul class="entry-bullets">
+            <li>Designing a multi-turn LLM search agent integrated with Coveo's retrieval and indexing stack.</li>
+            <li>Built an evaluation and alignment pipeline to measure model adherence to behavioral guardrails and custom preference specifications.</li>
+            <li>Initiated the PsychoPass project: geometric profiling of adversarial multi-turn LLM conversations for early jailbreak detection.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <span class="entry-org"><a href="https://block.xyz" target="_blank">Block</a></span>
+          <span class="entry-date">Feb 2024 &ndash; Oct 2025</span>
+          <span class="entry-role">Machine Learning Engineer</span>
+          <span class="entry-location">Montreal, QC, Canada (Remote)</span>
+          <ul class="entry-bullets">
+            <li>Led fine-tuning of the Foundational Events Model — a large-scale transformer encoding user activity sequences into user embeddings — for account takeover and chargeback detection.</li>
+            <li>Applied inductive GNNs at scale to identify gambling activity and referral abuse in transaction networks.</li>
+            <li>Developed anomaly detection on time series of customer location signals (Customer Journey).</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <span class="entry-org"><a href="https://block.xyz" target="_blank">Block</a></span>
+          <span class="entry-date">May 2023 &ndash; Dec 2023</span>
+          <span class="entry-role">Applied Deep Learning Intern</span>
+          <span class="entry-location">Montreal, QC, Canada (Remote)</span>
+          <ul class="entry-bullets">
+            <li>Formulated real-time chargeback detection as a temporal graph learning problem and developed a novel deep learning architecture for this task.</li>
+            <li>Work resulted in publications in TMLR and DMLR.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <span class="entry-org"><a href="https://www.segmentify.com" target="_blank">Segmentify</a></span>
+          <span class="entry-date">Jan 2018 &ndash; Aug 2018</span>
+          <span class="entry-role">Data Scientist</span>
+          <span class="entry-location">Istanbul, Türkiye</span>
+          <ul class="entry-bullets">
+            <li>Built a customer segmentation framework encoding purchasing behaviour for lifetime value estimation, supporting e-commerce retailers in boosting conversion rates.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="container">
+      <p class="section-title">Education</p>
+      <div class="entry-list">
+
+        <div class="entry">
+          <span class="entry-org">McGill University</span>
+          <span class="entry-date">Jan 2019 &ndash; Dec 2023</span>
+          <span class="entry-role">Ph.D., Computer Engineering</span>
+          <span class="entry-location">Montreal, QC, Canada</span>
+          <ul class="entry-bullets">
+            <li>Thesis: <a href="https://escholarship.mcgill.ca/concern/theses/t722hg54k" target="_blank"><em>Graph-Based Strategies for Classification with Diverse Label Information</em></a>.</li>
+            <li>McGill Engineering Doctoral Award (MEDA).</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <span class="entry-org">University College London</span>
+          <span class="entry-date">Sep 2016 &ndash; Dec 2017</span>
+          <span class="entry-role">M.S., School of Management</span>
+          <span class="entry-location">London, UK</span>
+          <ul class="entry-bullets">
+            <li>Fully funded by UCL studentship.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <span class="entry-org">Middle East Technical University</span>
+          <span class="entry-date">Sep 2014 &ndash; Jun 2016</span>
+          <span class="entry-role">M.S., Industrial Engineering</span>
+          <span class="entry-location">Ankara, Turkey</span>
+          <ul class="entry-bullets">
+            <li>Dean's Honour List; fully government-sponsored.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <span class="entry-org">Middle East Technical University</span>
+          <span class="entry-date">Sep 2010 &ndash; Jun 2014</span>
+          <span class="entry-role">B.S., Industrial Engineering</span>
+          <span class="entry-location">Ankara, Turkey</span>
+          <ul class="entry-bullets">
+            <li>Dean's High Honour List.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <span class="entry-org"><a href="https://bluedot.org/courses/technical-ai-safety" target="_blank">Blue Dot Impact</a></span>
+          <span class="entry-date">2025</span>
+          <span class="entry-role">Certificate — Technical AI Safety</span>
+          <span class="entry-location">Online</span>
+          <ul class="entry-bullets">
+            <li>Intensive course on AI alignment, interpretability, and AI safety research methods. <a href="https://bluedot.org/certification?id=recBqdzHf9f8r70Nk" target="_blank">Verified certificate.</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-title">Skills</p>
+      <div class="skill-group">
+
+        <div class="skill-row">
+          <span class="skill-label">Languages</span>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+          </div>
+        </div>
+
+        <div class="skill-row">
+          <span class="skill-label">Core ML</span>
+          <div class="skill-tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">PyTorch Geometric</span>
+            <span class="tag">Transformers</span>
+            <span class="tag">Lightning</span>
+            <span class="tag">scikit-learn</span>
+          </div>
+        </div>
+
+        <div class="skill-row">
+          <span class="skill-label">Agentic / Safety</span>
+          <div class="skill-tags">
+            <span class="tag">PyRIT</span>
+            <span class="tag">MCP</span>
+            <span class="tag">LangChain</span>
+            <span class="tag">OpenAI API</span>
+            <span class="tag">Anthropic API</span>
+          </div>
+        </div>
+
+        <div class="skill-row">
+          <span class="skill-label">MLOps</span>
+          <div class="skill-tags">
+            <span class="tag">W&amp;B</span>
+            <span class="tag">MLflow</span>
+            <span class="tag">Docker</span>
+            <span class="tag">SLURM</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Muberra Ozmen &mdash; Montreal, QC, Canada</p>
+</footer>
+
+</body>
 </html>
